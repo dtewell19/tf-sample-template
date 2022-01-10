@@ -66,6 +66,7 @@ spec:
       input:
         url: ./skeleton
         values:
+          component_id: ${{ parameters.function_name }}
           function_name: ${{ parameters.function_name }}
           description: ${{ parameters.description }}
           handler: ${{ parameters.handler }}
