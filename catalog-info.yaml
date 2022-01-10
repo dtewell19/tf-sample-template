@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tf-sample-template
+  annotations:
+    github.com/project-slug: dtewell19/tf-sample-template
+spec:
+  type: other
+  lifecycle: unknown
+  owner: infrastructure
