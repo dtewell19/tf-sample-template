@@ -1,6 +1,3 @@
-data "aws_iam_account_alias" "current" {}
-
-
 module "lambda_zip_function" {
   source = "terraform-aws-modules/lambda/aws"
 
